@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Readex+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+}
+.container {
+  background-color: #fff;
+}
+.navbar-container {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.list {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.list-item {
+  display: flex;
+    margin-right: 45px;
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.list-item:first-child{
+  text-decoration: underline;
+}
+.button-group {
+  display: flex;
+  margin-top: 13px;
+}
+.search-icon{
+  width: 25px;
+  height: 45px;
+}
+.nav-button{
+  margin-left: 20px;
+    width: 140px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.hero-container{
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.globe{
+  position: absolute;
+  bottom: 510px;
+  right: 530px;
+}
+.star{
+  position: absolute;
+  right: 75px;
+  bottom: 420px;
+}
+.square{
+  /* position: absolute;
+    top: 340px;
+    left: 230px; */
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+.hero{
+  position: absolute;
+}
+.hero img{
+  /* width: 500px;
+    height: 560px; */
+    width: 470px;
+    height: 520px;
+}
+.hero-container-right{
+  position: absolute;
+    left: 700px;
+    top: 300px;
+    text-align: center;
+    margin-right: 30px;
+}
+.hero-heading{
+  font-size: 57px;
+    margin-bottom: 50px;
+}
+.hero-description{
+  font-family: sans-serif;
+  margin-bottom: 50px;
+  position: absolute;
+  margin-left: 120px;
+    margin-right: 120px;
+}
+.button{
+  margin-bottom: 50px;
+    position: absolute;
+    top: 250px;
+    left: 164px;
+    
+}
+.button-email{
+  width: 170px;
+  height: 35px;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-join{
+  width: 170px;
+  height: 35px;
+  border: 0px solid;
+  border-radius: 5px;
+  background-color: black;
+  color: #ffff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.contact{
+  margin-top: 125px;
+  position: absolute;
+  left: 255px;
+  top: 222px;
+}
+.contact-heading{
+  margin-bottom: 10px;
+}
+.icons{
+  cursor: pointer;
+}
